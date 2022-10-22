@@ -1,4 +1,5 @@
 ﻿using System;
+using Console2022.TestClass;
 
 namespace Console2022
 {
@@ -6,7 +7,11 @@ namespace Console2022
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            //declare switchObj for Testing
+            SwitchClass switchObj = new SwitchClass();
+
+            //show result
+            switchObj.showResult();
         }
     }
 }
