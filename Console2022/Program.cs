@@ -7,11 +7,11 @@ namespace Console2022
     {
         static void Main(string[] args)
         {
-            //declare switchObj for Testing
-            SwitchClass switchObj = new SwitchClass();
+            //declare conditionObj for Testing
+            ConditionClass conObj = new ConditionClass();
 
             //show result
-            switchObj.showResult();
+            conObj.showResult();
         }
     }
 }
